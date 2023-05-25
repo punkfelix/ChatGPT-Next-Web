@@ -43,7 +43,12 @@ export default function RootLayout({
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 100 }}>
+          <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备19151637号-1</a>
+        </div>
+      </body>
     </html>
   );
 }

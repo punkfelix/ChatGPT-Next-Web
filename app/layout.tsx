@@ -45,7 +45,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
-        <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 100 }}>
+        <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 100, backgroundColor: 'rgba(255,255,255,0.6)', padding: 4, textAlign: 'center' }}>
           <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备19151637号-1</a>
         </div>
       </body>
